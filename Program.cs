@@ -10,7 +10,15 @@ namespace Lesson7_Homework
     {
         static void Main(string[] args)
         {
-            //start homework
+            string pass = "password";
+            Console.WriteLine("Enter password:");
+            string input = Console.ReadLine();
+            if (input == pass)
+            {
+                Console.WriteLine("Welcome!");
+            }
+
+            Console.ReadKey(true);
         }
     }
 }
